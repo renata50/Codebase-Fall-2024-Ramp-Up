@@ -1,0 +1,130 @@
+body {    
+    background-image: url("https://media.istockphoto.com/id/1367756031/vector/light-blue-watercolor-background-illustration.jpg?s=612x612&w=0&k=20&c=qiJl7j-2terwHd-1YJxiFIo1VJx6l6IsmoqlgeypQ7c=");
+    background-color: lightgray;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin: 20px;
+    border-radius: 10px;
+    display: none; 
+    transition: opacity 0.5s ease;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#first-question {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#grades {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#grades button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#grades button:hover {
+    background-color: #3498db;
+}
+
+#freshmen-resources a {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#freshmen-resources a:hover {
+    color: #e74c3c;
+}
+
+.resource-links {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+#sophomore-resources a {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#sophomore-resources a:hover {
+    color: #e74c3c;
+}
+
+#junior-resources a {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#junior-resources a:hover {
+    color: #e74c3c;
+}
+
+#senior-resources a {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#senior-resources a:hover {
+    color: #e74c3c;
+}
